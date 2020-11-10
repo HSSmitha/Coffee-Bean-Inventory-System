@@ -1,0 +1,70 @@
+body    {
+            background: url(images/image-1.jpg);
+            background-size: cover;
+            color: #d5b084;
+            font-family: 'open_sansregular';
+            font-size: 12px;
+            margin: 0;
+            min-width: 960px;
+            padding: 0;
+        }
+#main
+        {
+        	margin-top: 100px;
+        	border:5px solid black;
+        	width: 300px;
+        	border-radius: 10px;
+
+        }
+ #main input[type=submit]
+        {   
+        	padding: 10px;
+        	background-color: green;
+        	border-radius: 10px;
+        	width: 150px;
+        	color: white;	
+        }  
+
+span.psw 
+        {
+            float: right;
+            padding-top: 16px;
+        }
+
+ @media screen and (max-width: 300px)
+  {
+        span.psw
+        {
+                display: block;
+                float: none;
+        }
+        .cancelbtn 
+        {
+            width: 100%;
+        }
+
+    ul
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            
+        }
+}
+.admin-head
+        {
+            font-size: 22px;
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+
+
+
+
+
+
+
+
+
+
